@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./flashcard.style.scss";
+import { randoMatic } from "../utils";
 
 
-export default function Flashcard() {
+export default function Flashcard(randoMatic) {
   const [ex, setEx] = useState(null);
   const [why, setWhy] = useState(null);
   const [stringy, setStringy ] = useState(null);
